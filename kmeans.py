@@ -49,7 +49,7 @@ class KMeans:
         n_cluster : int
             Num of cluster applied to data
         init_pp : bool, optional
-            Initialization method whether to use K-Means++ or not
+            Initialization method whether to use K-Means++ or not   
             (the default is True, which use K-Means++)
         max_iter : int, optional
             Max iteration to update centroid (the default is 100)
