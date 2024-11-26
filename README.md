@@ -417,21 +417,16 @@ DS_RP_Part-B_ClusteringAnalysis/
 
 <div style="margin: 40px 0;">
 
-<h2>Support the Project</h2>
+Support 💫
+If you find this research valuable, consider:
 
-If you found this research useful, please consider:
-- Starring the repository ⭐
-- Sharing with colleagues 🔄
-- Contributing to improvements 🛠️
+⭐ Star the project
+🌟 Share with friends
+🛠️ Contribute ideas
 
-</div>
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 30px;">
-
-**Made with ❤️ by [Shivam V Dali](https://github.com/svdexe)**
-
-<small>© 2024 University of Adelaide. All rights reserved.</small>
-
-</div>
-
+<br>
+<div align="center">
+   Made with 💝 by <a href="https://github.com/svdexe">Shivam V Dali</a>
+   <br>
+   © 2024 All rights reserved.
 </div>
