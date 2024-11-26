@@ -17,6 +17,27 @@
 
 <br>
 
+## 📊 Key Research Findings
+
+<div align="center" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px;">
+
+| Metric | Achievement | Technical Impact |
+|:------:|:-----------:|:----------------:|
+| ⚡ Performance | <kbd>**100%** Success</kbd> | Perfect reliability in complex sets |
+| 🎯 Stability | <kbd>**40%** Better</kbd> | Cross-dimensional adaptability |
+| 📈 Accuracy | <kbd>**30%** Higher</kbd> | Optimal convergence pattern |
+| ⏱️ Speed | <kbd>**50%** Faster</kbd> | Robust cluster separation |
+
+</div>
+
+<div align="center">
+  <p><em>Results based on comparative analysis across five diverse datasets (4-784 dimensions)</em></p>
+</div>
+
+
+<br>
+
+
 <div class="image-container" style="padding: 10px; background-color: #f8f9fa; border-radius: 8px;">
   <kbd>
     <img src="Output_Screnshots/Comparative Analysis of Algorithm Performance Across Different Datasets.png" width="900px"/>
@@ -37,22 +58,7 @@
 
 <br>
 
-## 📊 Key Research Findings
 
-<div align="center" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px;">
-
-| Metric | Achievement | Technical Impact |
-|:------:|:-----------:|:----------------:|
-| ⚡ Performance | <kbd>**100%** Success</kbd> | Perfect reliability in complex sets |
-| 🎯 Stability | <kbd>**40%** Better</kbd> | Cross-dimensional adaptability |
-| 📈 Accuracy | <kbd>**30%** Higher</kbd> | Optimal convergence pattern |
-| ⏱️ Speed | <kbd>**50%** Faster</kbd> | Robust cluster separation |
-
-</div>
-
-<div align="center">
-  <p><em>Results based on comparative analysis across five diverse datasets (4-784 dimensions)</em></p>
-</div>
 
 
 
@@ -304,6 +310,7 @@ DS_RP_Part-B_ClusteringAnalysis/
 
 <br>
 
+<div align="center">
 <table>
 <tr>
 <td width="33%" align="center">
