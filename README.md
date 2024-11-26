@@ -46,8 +46,7 @@ seaborn>=0.11.1
 
 ```python
 # Clone the repository
-git clone https://github.com/yourusername/DS_RP_Part-B_ClusteringAnalysis.git
-
+git clone https://github.com/svdexe/DS_RP_Part-B_ClusteringAnalysis_using_HeuristicOptimizationTechniques.git
 # Install dependencies
 pip install -r requirements.txt
 
