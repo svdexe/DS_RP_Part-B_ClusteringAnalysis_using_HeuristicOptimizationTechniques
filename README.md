@@ -107,39 +107,10 @@ Our approach progresses through multiple algorithmic enhancements:
 - Successfully reduced computational complexity while maintaining accuracy
 - Established effectiveness of hybrid PSO-based clustering for complex, high-dimensional datasets
 
-## 📚 Citation
+## 👨‍💻 Contributor
 
-If you use this implementation in your research, please cite:
+- Shivam Dali is a Data Science graduate student from Adelaide University. Connect with him on [LinkedIn](https://www.linkedin.com/in/shivam-dali-86b0a1201/) and explore more projects on [GitHub](https://https://github.com/svdexe).
 
-```bibtex
-@article{dali2024performance,
-  title={Performance Analysis of Hybrid and Adaptive PSO Algorithms for Multi-dimensional Data Clustering},
-  author={Dali, Shivam V},
-  institution={University of Adelaide},
-  year={2024}
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-Steps to contribute:
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-Shivam V Dali - your.email@example.com
-
-Project Link: [https://github.com/yourusername/DS_RP_Part-B_ClusteringAnalysis](https://github.com/yourusername/DS_RP_Part-B_ClusteringAnalysis)
 
 ## 🙏 Acknowledgments
 
@@ -148,4 +119,4 @@ Project Link: [https://github.com/yourusername/DS_RP_Part-B_ClusteringAnalysis](
 * All contributors who have helped with testing and feedback
 
 ---
-⭐️ From [Shivam V Dali](https://github.com/yourusername)
+⭐️ From [Shivam V Dali](https://github.com/svdexe)
