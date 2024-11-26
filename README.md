@@ -7,7 +7,7 @@
 > An advanced implementation and analysis of Particle Swarm Optimization (PSO) variants for clustering, demonstrating superior performance through hybrid and adaptive approaches.
 
 <div align="center">
-  <img src="./assets/comparative_analysis.png" alt="Comparative Analysis of Algorithm Performance" width="800"/>
+  <img src="Output_Screnshots/Comparative Analysis of Algorithm Performance Across Different Datasets.png" width="800"/>
   <p><em>Figure 1: Performance comparison across different datasets showing superior APSO performance</em></p>
 </div>
 
@@ -17,6 +17,28 @@
 - **Enhanced Stability**: Hybrid variants demonstrated up to 40% better stability
 - **Improved Accuracy**: Average clustering accuracy improved by 30% across all datasets
 - **Efficient Processing**: Reduced computation time from 3 hours to 1.5 hours for high-dimensional data while maintaining 85%+ accuracy
+
+## 🎯 Algorithm Performance
+
+<div align="center">
+  <img src="Output_Screnshots/Radar Plot.png" width="600"/>
+  <p><em>Figure 2: Radar plot showing multi-dimensional performance metrics across algorithms</em></p>
+</div>
+
+### Convergence Analysis
+
+<div align="center">
+  <img src="Output_Screnshots/Wine_Convergence.png" width="800"/>
+  <p><em>Figure 3: Convergence behavior showing APSO achieving lowest global best score (2.1769)</em></p>
+</div>
+
+## 🔍 Clustering Visualization
+
+<div align="center">
+  <img src="Output_Screnshots/PCA dermitology.png" width="800"/>
+  <p><em>Figure 4: 3D and PCA visualization of clustering results across different algorithms</em></p>
+</div>
+
 
 ## 🎯 Features
 
@@ -33,6 +55,26 @@
   - Wine (multi-class)
   - Dermatology (complex features)
   - MNIST Fashion (high-dimensional)
+ 
+
+## 💡 Visual Results Summary
+
+Our comprehensive visual analysis demonstrates:
+
+1. **Superior Clustering Quality**
+   - Clear cluster separation in APSO-Hybrid
+   - Consistent performance across dimensions
+   - Robust handling of complex datasets
+
+2. **Convergence Efficiency**
+   - Faster convergence in hybrid variants
+   - More stable optimization trajectory
+   - Better final solution quality
+
+3. **Multi-dimensional Excellence**
+   - Balanced performance across metrics
+   - Strong showing in high-dimensional cases
+   - Consistent cross-dataset reliability
 
 ## 🛠️ Implementation
 
