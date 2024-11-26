@@ -6,6 +6,11 @@
 
 > An advanced implementation and analysis of Particle Swarm Optimization (PSO) variants for clustering, demonstrating superior performance through hybrid and adaptive approaches.
 
+<div align="center">
+  <img src="./assets/comparative_analysis.png" alt="Comparative Analysis of Algorithm Performance" width="800"/>
+  <p><em>Figure 1: Performance comparison across different datasets showing superior APSO performance</em></p>
+</div>
+
 ## 📊 Key Findings
 
 - **Superior Reliability**: APSO variants achieved 100% success rates vs basic PSO's 48.00 ± 30.00%
