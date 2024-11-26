@@ -17,6 +17,28 @@
 
 <br>
 
+
+This study enhances clustering through Particle Swarm Optimization (PSO) variants, from basic PSO to Adaptive PSO (APSO) with hybrid implementations. The framework enables evaluation across diverse datasets (4-784 dimensions) with sophisticated validation.
+
+## 🔍 Evaluation Framework
+
+<div align="center">
+
+[![](https://img.shields.io/badge/Silhouette_Score-25%25-22A699?style=for-the-badge&logoWidth=40)](https://shields.io/)
+[![](https://img.shields.io/badge/Calinski_Harabasz-25%25-4B8BBE?style=for-the-badge&logoWidth=40)](https://shields.io/)
+[![](https://img.shields.io/badge/Davies_Bouldin-20%25-F24C3D?style=for-the-badge&logoWidth=40)](https://shields.io/)
+[![](https://img.shields.io/badge/SSE-15%25-841CD1?style=for-the-badge&logoWidth=40)](https://shields.io/)
+[![](https://img.shields.io/badge/QE-15%25-FFB000?style=for-the-badge&logoWidth=40)](https://shields.io/)
+
+</div>
+
+The modular implementation supports reproducibility and extensions to bin-packing optimization. Results highlight trade-offs between consistency and optimization potential for algorithm selection.
+
+
+
+<br>
+
+
 ## 📊 Key Research Findings
 
 <div align="center" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px;">
@@ -43,7 +65,9 @@
     <img src="Output_Screnshots/Comparative Analysis of Algorithm Performance Across Different Datasets.png" width="900px"/>
   </kbd>
   <br>
-  <em>Figure 1: Comprehensive Performance Analysis Across Multiple Datasets</em>
+  <em>Figure 1: Comparative reliability assessment across
+five clustering implementations, demonstrating distinct performance tiers with varying
+consistency levels.</em>
 </div>
 
 <br>
@@ -70,33 +94,17 @@
     <img src="Output_Screnshots/Radar Plot.png" width="700px"/>
   </kbd>
   <br>
-  <em>Performance metrics across all dimensions</em>
+  <em>Figure 2: Radar visualization comparing
+algorithmic performance across five key metrics (Success Rate, Silhouette Score, Final Score,
+Quantization Error, and SSE) at 75th percentile, revealing distinct trade-offs between
+stability, cohesion, and error characteristics.</em>
 </div>
 
-<table style="width: 80%;">
-<tr>
-<td width="60%">
+<div align="center">
 
-| Method | Feature | Score |
-|:------:|:-------:|:-----:|
-| K-means++ | <kbd>Init</kbd> | **0.991** |
-| APSO-H | <kbd>Adapt</kbd> | **0.932** |
-| APSO | <kbd>Dynamic</kbd> | **0.921** |
-| PSO-H | <kbd>Hybrid</kbd> | **0.891** |
-| PSO | <kbd>Base</kbd> | **0.774** |
+<div align="center">
 
-</td>
-<td width="40%">
 
-> 💡 **Key Points**
-> - APSO-H: Best balance
-> - K-means++: Top score
-> - PSO: Baseline ref
-
-</td>
-</tr>
-</table>
-</div>
 
 <div align="center">
   <hr width="80%">
@@ -110,7 +118,13 @@
     <img src="Output_Screnshots/Wine_Convergence.png" width="800px"/>
   </kbd>
   <br>
-  <em>Convergence patterns showing APSO's superior performance (best: 2.1769) with hybrid variants demonstrating enhanced stability. Wine dataset benchmark demonstrates consistent high-dimensional scaling.</em>
+  <em> Figure 3: Convergence Analysis of Global Best Scores: Comparison of convergence
+behaviors across PSO variants over 1000 iterations using Wine dataset as a representative
+example. APSO achieves the lowest global best score (2.1769) with steady convergence. At
+the same time, other variants show distinct patterns: PSO Hybrid and APSO Hybrid
+maintain stable intermediate scores after initial rapid descent, and PSO shows early
+convergence but higher final scores. Shaded regions represent 95% confidence intervals,
+indicating algorithmic stability across runs.</em>
 </div>
 </div>
 
@@ -131,7 +145,12 @@
     <img src="Output_Screnshots/PCA dermitology.png" width="800px"/>
   </kbd>
   <br>
-  <em>Figure 4: PCA and 3D Visualization of Dermatology Dataset Clustering</em>
+  <em>Figure 4: Clustering Visualization Comparison: 3D (left) and PCA-reduced 2D
+(right) projections of the Dermitology dataset using five algorithms. K-Means++ and APSO
+Hybrid show well-defined clusters with clear boundaries, while PSO exhibits more scattered
+distributions. Red crosses indicate cluster centroids. Hybrid variants demonstrate more
+stable centroid placement compared to their base algorithms, supporting their superior
+silhouette scores.</em>
 </div>
 </div>
 
